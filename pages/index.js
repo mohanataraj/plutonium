@@ -16,8 +16,8 @@ export default function Home() {
         canonical="https://plutonium.vercel.app/"
         openGraph={{
           url: "https://plutonium.vercel.app/",
-          title: "Plutonium",
-          description: "Plutonium – where darkness meets the web.",
+          title: "LIVE",
+          description: "We are changing the Auto Insurance Industry",
           images: [
             {
               url: "blob:https://og-playground.vercel.app/8baff750-c782-4a04-b198-7ee3dd1e1974",
@@ -39,10 +39,14 @@ export default function Home() {
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
-              Bringing darkness
+              Building the  <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
+              Furture
+            </span>
+            
               <br />
+              of&nbsp;
               <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
-                straight to the web.
+               Auto Insurance.
               </span>
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
