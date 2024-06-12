@@ -16,7 +16,7 @@ export default function Header() {
     <header className="w-full sticky-nav">
       <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row">
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
-          <Link href="/">
+          <Link legacyBehavior href="/">
             <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 dark:text-gray-300 dark:hover:text-white md:mb-0">
               LIVE.
             </a>
@@ -63,7 +63,7 @@ export default function Header() {
             >
               Pricing
             </a>
-            <Link href="/404">
+            <Link legacyBehavior href="/404">
               <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 Demo
               </a>

@@ -3,23 +3,22 @@ export default function Features() {
     <section id="features" className="py-12">
       <div className="max-w-xl px-4 py-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
         <h1 className="mb-8 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
-          Supporting the{" "}
+        Simplicity {" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-rose-500 via-fuchsia-500 to-indigo-500 dark:from-rose-400 dark:via-fuchsia-400 dark:to-indigo-400">
-            finest
+          Meets 
           </span>{" "}
-          and{" "}
+          {" "} 
+          Surprise
+
           <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-rose-500 dark:from-indigo-400 dark:via-fuchsia-400 dark:to-rose-400">
-            richest
           </span>{" "}
-          features.
         </h1>
         <p className="max-w-md mx-auto mb-10 text-lg text-gray-600 dark:text-gray-400 md:text-lg">
-          We&apos;re introducing a new wave of template designs that sky-rocket
-          the interaction between users and <b>your</b> app.
+          We&apos;re introducing some exciting basic features for <b>Auto Insurance</b> app.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="mb-10 space-y-6">
-            <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left">
+            <h1 className="text-xl font-bold text-center text-yellow-500 dark:text-rose-300 md:text-2xl sm:text-left">
               Next.js 11
             </h1>
             <div className="h-auto">
@@ -29,13 +28,13 @@ export default function Features() {
                 target="_blank"
               >
                 <img
-                  className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/placeholder-2.webp"
+                  className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-2xl md:hover:transform md:hover:scale-105"
+                  src="/images/home.png"
                   alt="Placeholder for Next.js"
                 />
               </a>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
                   <span className="font-semibold">Conformance</span>: A system
@@ -60,7 +59,7 @@ export default function Features() {
                   updates
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="mb-10 space-y-6">
             <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left">
@@ -74,12 +73,12 @@ export default function Features() {
               >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/placeholder-3.webp"
+                  src="/images/packaged.png"
                   alt="Placeholder for TailwindCSS JIT"
                 />
               </a>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
                   <span className="font-semibold">Just-in-Time Mode</span>: A
@@ -107,7 +106,7 @@ export default function Features() {
                   </span>
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="mb-10 space-y-6">
             <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left">
@@ -121,12 +120,12 @@ export default function Features() {
               >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/placeholder-4.webp"
+                  src="/images/combo.png"
                   alt="Placeholder for Dark Mode"
                 />
               </a>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
                   <a
@@ -154,7 +153,7 @@ export default function Features() {
                   hook
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="mb-10 space-y-6">
             <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left">
@@ -162,18 +161,18 @@ export default function Features() {
             </h1>
             <div className="h-auto">
               <a
-                href="https://unsplash.com/photos/_CrD1UmfWqc"
+                href="/images/record.png"
                 rel="noreferrer"
                 target="_blank"
               >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
-                  src="/images/placeholder-5.webp"
+                  src="/images/record.png"
                   alt="Placeholder for Next-SEO"
                 />
               </a>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
                   <a
@@ -203,7 +202,7 @@ export default function Features() {
                   should at least have access to a description & a title.
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
       </div>

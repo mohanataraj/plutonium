@@ -126,7 +126,7 @@ export default function Pricing() {
             <h1 className="text-sm font-semibold text-gray-500 uppercase">
               What&apos;s included
             </h1>
-            <p className="font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul>
                 <Feature />
                 <Feature />
@@ -135,7 +135,7 @@ export default function Pricing() {
                 <Feature />
                 <Feature />
               </ul>
-            </p>
+            </div>
           </div>
         </div>
       </div>
