@@ -32,7 +32,7 @@ export default function Home() {
         }}
       />
       <Head>
-        <link  rel="icon" href="/favicon.ico" />
+        <link  rel="icon" href="/images/logo_temp.svg" />
       </Head>
       <Header />
       <section className="relative">

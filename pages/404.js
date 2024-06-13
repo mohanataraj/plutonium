@@ -18,7 +18,7 @@ export default function Error() {
         </div>
         <div className="max-w-md">
           <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
-            There was an error finding your page.
+            Coming soon
           </p>
           <p className="max-w-sm mb-8 text-md">
             Plutonium doesn&apos;t do well with generic 404 pages. Hence: this
