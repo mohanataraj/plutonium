@@ -57,12 +57,12 @@ export default function Header() {
             >
               Features
             </a>
-            <a
+          { /* <a
               href="/#pricing"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Pricing
-            </a>
+            </a> */}
             <Link legacyBehavior href="/404">
               <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 Demo
@@ -101,22 +101,7 @@ export default function Header() {
               </svg>
             )}
           </button>
-          <a
-            href="#"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="invisible dark:hover:border-gray-500 hover:shadow-md transition duration-300 mr-4 text-black border px-3 py-1.5 rounded dark:text-gray-300 md:visible"
-          >
-            Sign in
-          </a>
-          <a
-            href="#"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="invisible md:visible px-3 py-1.5 transition-colors hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
-          >
-            Sign up
-          </a>
+        
         </div>
       </div>
     </header>

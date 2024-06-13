@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
-        title="Plutonium"
-        description="Plutonium – where darkness meets the web."
-        canonical="https://plutonium.vercel.app/"
+        title="LIVE"
+        description="Building the future of auto insurance."
+        canonical="https://www.liveinsurance.app/"
         openGraph={{
-          url: "https://plutonium.vercel.app/",
+          url: "",
           title: "LIVE",
           description: "We are changing the Auto Insurance Industry",
           images: [
@@ -26,8 +26,8 @@ export default function Home() {
           site_name: "Plutonium",
         }}
         twitter={{
-          handle: "@saurishhh",
-          site: "https://plutonium.vercel.app/",
+          handle: "",
+          site: "https://www.liveinsurance.app/",
           cardType: "summary_large_image",
         }}
       />
@@ -52,8 +52,8 @@ export default function Home() {
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
             We are taking on a challenge – revolutionizing how the auto insurance industry operates.
             
-            At LIVE, we&apos;re building an exciting new platform that puts users first. 
-            Expect something truly transformative like never before.
+            We&apos;re building an exciting new platform that&apos;s tranformative & bring <span className="font-bold">VALUE</span> to you. 
+           
             </p>
             <div className="mt-6 text-center md:ml-6">
             <SignupForm />
@@ -67,7 +67,7 @@ export default function Home() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://unsplash.com/photos/the-toys-vintage-miniature-car-and-bus-on-trendy-colored-paper-the-pop-art-and-creativity-concept-the-vacation-trip-travel-weekend-holidays-concept-H8k5A-gTRf4"
+                href="/images/car_yellow_bg.jpeg"
               >
                 <img
                   className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"

@@ -71,7 +71,8 @@ export default function SignupForm() {
     onSubmit={handleSubmit}
     className=" is-revealing flex flex-col gap-2 sm:flex-row"
   >
-    <div className="w-full flex flex-row-reverse flex-grow md:flex-grow justify-center sm:w-full">
+    <div className="w-full flex flex-row flex-grow md:flex-grow justify-center sm:w-full flex-wrap">
+
       <label className="hidden" htmlFor="email" aria-hidden="true">
         Email
       </label>
@@ -89,16 +90,20 @@ export default function SignupForm() {
       {success && (
         <div className="mt-2 text-xs italic text-[#f43f5e]">Email submitted successfully!</div>
       )}
+      </div>
+      <div className="flex-shrink px-3">
+      <button
+      className="-mt-px bg-gradient-to-r from-[#ec4899] to-[#f43f5e] focus:accent-[#50d71e] inline-flex cursor-pointer justify-center whitespace-nowrap rounded-sm border-0  px-7 py-4 text-center font-medium leading-4 text-white no-underline"
+      type="submit" onClick={handleClick}
+    >
+      Get Early Access
+    </button>
+   
     </div>
 
-    <div className="flex-shrink">
-      <button
-        className="-mt-px bg-gradient-to-r from-[#ec4899] to-[#f43f5e] focus:accent-[#50d71e] inline-flex cursor-pointer justify-center whitespace-nowrap rounded-sm border-0  px-7 py-4 text-center font-medium leading-4 text-white no-underline"
-        type="submit" onClick={handleClick}
-      >
-        Get Early Access
-      </button>
-    </div>
+    
+     
+   
   </form>
   )
 }

@@ -8,20 +8,14 @@ export default function Footer() {
       <div className="container flex flex-col items-center px-10 pb-8 mx-auto border-t border-purple-600 dark:border-purple-300 sm:flex-row">
         <Link legacyBehavior href="/">
           <a className="flex items-center justify-center mt-3 text-xl font-medium title-font md:ml-3 md:justify-start">
-            PLUTONIUM
+           LIVE.  
           </a>
         </Link>
-        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300"></div>
-        <a
-          className="flex items-center justify-center mt-3 font-medium title-font md:justify-start"
-          href={
-            router.pathname === "/"
-              ? `https://github.com/minor/plutonium/edit/main/pages/index.js`
-              : `https://github.com/minor/plutonium/edit/main/pages${router.pathname}.js`
-          }
-        >
-          <span className="text-sm md:ml-5">Edit on GitHub</span>
-        </a>
+        <div className="invisible h-5 mt-3 ml-4 border-l border-black md:visible dark:border-gray-300">
+        <span className="text-sm md:ml-5">Auto Insurance app</span>
+        </div>
+
+        
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-3 sm:justify-start">
           <a
             aria-label="mail"
@@ -44,7 +38,7 @@ export default function Footer() {
           <a
             aria-label="twitter"
             className="ml-3"
-            href="https://twitter.com/saurishhh"
+            href=""
           >
             <svg
               fill="currentColor"
@@ -60,7 +54,7 @@ export default function Footer() {
           <a
             aria-label="instagram"
             className="ml-3"
-            href="https://instagram.com/saurishhh"
+            href=""
           >
             <svg
               fill="none"
@@ -95,7 +89,7 @@ export default function Footer() {
           <a
             aria-label="github"
             className="ml-3"
-            href="https://github.com/minor/plutonium/"
+            href=""
           >
             <svg
               width="30"
