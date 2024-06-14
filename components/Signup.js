@@ -1,18 +1,18 @@
 'use client'
-import { Amplify} from 'aws-amplify';
-import awsExports from '../src/aws-exports'; // The path may vary
-import { generateClient } from 'aws-amplify/api';
-import config from '../src/amplifyconfiguration.json';
-import { createSignup } from "../src/graphql/mutations";
+//import { Amplify} from 'aws-amplify';
+//mport awsExports from '../src/aws-exports'; // The path may vary
+// import { generateClient } from 'aws-amplify/api';
+// import config from '../src/amplifyconfiguration.json';
+// import { createSignup } from "../src/graphql/mutations";
 
 //import { CreateSignupMutation } from "@/API";
 //import DialogForm from "../dialogform/page";
 import FormEvent from 'react'
 import { useState, ChangeEvent, ChangeEventHandler } from 'react';
 
-Amplify.configure(config);
+//Amplify.configure(config);
 
-const client = generateClient();
+//const client = generateClient();
 
 export default function SignupForm() {
 
