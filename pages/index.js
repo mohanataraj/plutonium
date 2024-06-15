@@ -52,7 +52,7 @@ export default function Home() {
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
             We are taking on a challenge – revolutionizing how the auto insurance industry operates.
             
-            We&apos;re building an exciting new platform that&apos;s tranformative & bring <span className="font-bold">VALUE</span> to you. 
+            We&apos;re building an exciting new platform that&apos;s tranformative & brings <span className="font-bold">value</span> to you. 
            
             </p>
             <div className="mt-6 text-center md:ml-6">
