@@ -1,18 +1,21 @@
 'use client'
 import { Amplify} from 'aws-amplify';
-import awsExports from '../src/aws-exports'; // The path may vary
-import { generateClient } from 'aws-amplify/api';
-import config from '../src/amplifyconfiguration.json';
-import { createSignup } from "../src/graphql/mutations";
+//import awsExports from '../src/aws-exports'; // The path may vary
+//import config from '../src/amplifyconfiguration.json';
+//import { createSignup } from "../src/graphql/mutations";
 
 //import { CreateSignupMutation } from "@/API";
 //import DialogForm from "../dialogform/page";
 import FormEvent from 'react'
 import { useState, ChangeEvent, ChangeEventHandler } from 'react';
+import { generateClient } from "aws-amplify/data";
 
-Amplify.configure(config);
 
-const client = generateClient(); 
+
+
+
+
+const client = generateClient()
 
 export default function SignupForm() {
 
@@ -38,16 +41,20 @@ export default function SignupForm() {
       //   method: 'POST',
       //   body: formData,
       // })
-     
-     const result = await client.graphql({
-      query:createSignup,
-      variables:{
-        input:{
-           email: formData.get("email")?.toString()
-        }
-      }
 
-     })
+      const result = await client.models.SignUpUser({
+        email: formData.get("email")
+      })
+     
+    //  const result = await client.graphql({
+    //   query:createSignup,
+    //   variables:{
+    //     input:{
+    //        email: formData.get("email")?.toString()
+    //     }
+    //   }
+
+    // })
 
       // if (!response.ok) {
       //   throw new Error('Failed to submit the data. Please try again.')

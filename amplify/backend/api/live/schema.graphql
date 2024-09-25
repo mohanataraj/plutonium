@@ -1,4 +1,0 @@
-type Signup @model @auth(rules: [{allow: public}]) {
-  id: ID!
-  email: AWSEmail
-}

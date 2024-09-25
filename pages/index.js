@@ -8,6 +8,7 @@ import Features from "../components/Features";
 import Pricing from "../components/Pricing";
 import SignupForm from "../components/Signup";
 export default function Home() {
+  
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
