@@ -42,7 +42,7 @@ export default function SignupForm() {
       //   body: formData,
       // })
 
-      const result = await client.models.SignUpUser({
+      const result = await client.models.SignUpUser.create({
         email: formData.get("email")
       })
      
