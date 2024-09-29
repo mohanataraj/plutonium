@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
-        title="LIVE"
+        title="DriveBy"
         description="Building the future of auto insurance."
         canonical="https://www.liveinsurance.app/"
         openGraph={{
@@ -43,7 +43,7 @@ export default function Home() {
               Building the  <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-sky-500 via-blue-500 to-indigo-500 dark:from-sky-500 dark:via-blue-400 dark:to-indigo-500">
               Future
             </span>
-            
+           
               <br />
               of&nbsp;
               <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-rose-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
@@ -88,7 +88,7 @@ export default function Home() {
         /> */}
       </section>
      { /*<Sponsors /> */}
-      <Features />
+      {/* <Features /> */}
      {/* <Pricing /> */}
       <Footer />
     </div>
